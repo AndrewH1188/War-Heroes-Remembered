@@ -1,15 +1,17 @@
 .navbar {
     background-color: rgb(0, 0, 0);
     padding: 30px;
-position: relative;
+    position: relative;
     .navbar-nav {
         display: flex;
-        flex: 50%;
+        flex: 25%;
         justify-content: end;
         align-items: end;
     } 
     
     .nav-link {
+        display: flex;
+        flex: 25%;
         color: #fff;
         &:hover { color: #d20a11;}
         &.active { color: #ceb7a5; } 
@@ -22,29 +24,28 @@ position: relative;
 
     .navbar-toggler { 
         color: #fff; 
-        &:active { color: #ceb7a5; }    
-    }
-}
-
-/*---------------- Computer medium screen size */
-
-@media (max-width: 992px) {
-    .navbar-toggler {
-        margin-left: 340px;
-    }
-}
-
-
-
-@media (max-width: 768px) {
-    .navbar-brand {
-        font-size: x-large;
-        text-align: center;
-    }
-
-    .navbar-toggler {
         margin-left: 10px;
-        font-size: large;
+        font-size: large; 
+        &:active { color: #ceb7a5; }   
     }
+}
 
+
+
+
+// ------------ Tablet Portrait - 768px upwards 
+@media (max-width: 768px) {
+    .navbar {
+        &navbar-brand {
+            font-size: x-large;
+            text-align: center;
+        }
+    }
+}
+
+// ------------ Tablet Landscape - 992px upwards 
+@media (max-width: 992px) {
+    // .navbar-toggler {
+    //     margin-left: 340px;
+    // }
 }

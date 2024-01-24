@@ -5,11 +5,13 @@
 }
 .navbar .navbar-nav {
   display: flex;
-  flex: 50%;
+  flex: 25%;
   justify-content: end;
   align-items: end;
 }
 .navbar .nav-link {
+  display: flex;
+  flex: 25%;
   color: #fff;
 }
 .navbar .nav-link:hover {
@@ -25,24 +27,16 @@
 }
 .navbar .navbar-toggler {
   color: #fff;
+  margin-left: 10px;
+  font-size: large;
 }
 .navbar .navbar-toggler:active {
   color: #ceb7a5;
 }
 
-/*---------------- Computer medium screen size */
-@media (max-width: 992px) {
-  .navbar-toggler {
-    margin-left: 340px;
-  }
-}
 @media (max-width: 768px) {
-  .navbar-brand {
+  .navbarnavbar-brand {
     font-size: x-large;
     text-align: center;
-  }
-  .navbar-toggler {
-    margin-left: 10px;
-    font-size: large;
   }
 }/*# sourceMappingURL=nav.css.map */

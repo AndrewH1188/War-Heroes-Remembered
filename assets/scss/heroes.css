@@ -1,0 +1,65 @@
+.home-hero {
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.remembering-hero {
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.remembering {
+  text-align: center;
+  font-size: x-large;
+  font-weight: 600;
+  padding-bottom: 45px;
+}
+
+.hero-text {
+  text-align: center;
+}
+
+.heroes1-bg {
+  background-color: #fafafa;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.war-hero-photo {
+  padding-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.heroes2 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.hero-info {
+  text-align: center;
+}
+
+.pg-button-heroes {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+a {
+  color: #fff;
+}
+
+.btn-heroes-pages {
+  background-color: black;
+  border-color: transparent;
+  color: #fff;
+}
+.btn-heroes-pages:hover {
+  background-color: #d20a11;
+  border-color: transparent;
+}
+.btn-heroes-pages:active {
+  background-color: #ceb7a5;
+  border-color: transparent;
+}/*# sourceMappingURL=heroes.css.map */

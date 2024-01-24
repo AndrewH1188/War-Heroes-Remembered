@@ -1,1 +1,24 @@
-/*# sourceMappingURL=hereos.css.map */
+.home-hero {
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.welcome {
+  text-align: center;
+  font-size: x-large;
+  font-weight: 600;
+  padding-bottom: 25px;
+}
+.welcome-article {
+  text-align: center;
+  padding: 0 100px 25px 100px;
+}
+
+.memorial-home-page {
+  width: 100%;
+  padding: 50px 0;
+}
+
+.space {
+  padding-bottom: 60px;
+}/*# sourceMappingURL=hereos.css.map */

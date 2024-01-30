@@ -11,14 +11,14 @@
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/scss/nav.css">
-  <link rel="stylesheet" href="assets/scss/index.css">
+  <link rel="stylesheet" href="assets/scss/error.css">
   <link rel="stylesheet" href="assets/scss/back-to-top.css">
   <link rel="stylesheet" href="assets/scss/footer.css">
   <link rel="icon" href="assets/images/whr-favicon.jpg">
   <title>War Heroes Remembered | Home</title>
 </head>
 
-<body>
+<body class="errorBackgroundImg">
   <nav class="navbar navbar-expand-lg">
     <a class="navbar-brand" href="index.html">War Heroes Remembered</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
@@ -29,7 +29,7 @@
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" href="index.html">Home</a>
+          <a class="nav-link" href="index.html">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="index.html#about">About</a>
@@ -49,13 +49,23 @@
       </ul>
     </div>
   </nav>
-  <img class="home-hero" src="assets/images/rememberance-wall.jpg" alt="Rememberance Wall with poppies">
   
   
-  
- ERROR
+
+<section class="errorPage">
 
 
+  <h2>Attention!</h2>
+  
+  <p>It looks like there was an error. <br>Let's get you back to somewhere more familiar.</p>
+  
+  <a href="index.html" class="btn btn-error-page"> Take me there </a>
+  
+  <div class="bgWhite"></div>
+
+
+
+</section>
 
   <!-- The code here for the back to top button has been taken from Material Design for Bootstrap (MDB) v5 & v4 -->
   <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">

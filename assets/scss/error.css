@@ -1,0 +1,42 @@
+.errorBackgroundImg {
+  background-image: url("../images/bg-poppies.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.errorBackgroundImg .errorPage {
+  color: #000;
+  padding-top: 120px;
+  text-align: center;
+  margin: 10px 0;
+}
+.errorBackgroundImg .errorPage h2, .errorBackgroundImg .errorPage p {
+  margin-bottom: 10px;
+}
+.errorBackgroundImg .errorPage .btn {
+  background-color: #000;
+  color: #fff;
+}
+.errorBackgroundImg .errorPage .btn:HOVER {
+  background-color: #d20a11;
+}
+.errorBackgroundImg .errorPage .bgWhite {
+  background-color: #fff;
+  opacity: 0.7;
+  width: 300px;
+  height: 210px;
+  margin: 0 auto;
+  position: relative;
+  padding: 20px;
+  z-index: -10;
+  bottom: 184px;
+  transform: translate(0 -184px);
+}
+@media screen and (min-width: 768px) {
+  .errorBackgroundImg .errorPage .bgWhite {
+    width: 420px;
+    height: 200px;
+    bottom: 170px;
+    transform: translate(0 -170px);
+  }
+}/*# sourceMappingURL=error.css.map */

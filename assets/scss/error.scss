@@ -1,0 +1,49 @@
+.errorBackgroundImg {
+    background-image: url("../images/bg-poppies.jpg");
+    //background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+
+    .errorPage {
+        color: #000;
+        //padding: 30px 0;
+        padding-top: 120px;
+        text-align: center;
+        margin: 10px 0; 
+
+        h2, p { margin-bottom: 10px; }
+
+        .btn {
+            background-color: #000;
+            color: #fff;
+
+            &:HOVER { background-color: #d20a11; }
+        }
+
+        .bgWhite {
+            background-color: #fff;
+            opacity: .7;
+            width: 300px;
+            height: 210px;
+            margin: 0 auto;
+            position: relative;
+            padding: 20px;
+            z-index: -10;
+            bottom: 184px;
+            transform: translate(0 -184px);
+
+            @media screen and (min-width: 768px) { 
+                width: 420px; 
+                height: 200px;
+                bottom: 170px;
+                transform: translate(0 -170px);
+            }
+
+            
+        }
+    }   
+}
+
+
+

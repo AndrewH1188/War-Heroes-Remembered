@@ -54,6 +54,7 @@ a {
   background-color: black;
   border-color: transparent;
   color: #fff;
+  transition: max-height 0.3s ease-out;
 }
 .btn-heroes-pages:hover {
   background-color: #d20a11;

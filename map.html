@@ -10,15 +10,12 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/scss/nav.css">
-  <link rel="stylesheet" href="assets/scss/error.css">
-  <link rel="stylesheet" href="assets/scss/back-to-top.css">
-  <link rel="stylesheet" href="assets/scss/footer.css">
+  <link rel="stylesheet" href="assets/scss/map.css">
   <link rel="icon" href="assets/images/whr-favicon.jpg">
-  <title>War Heroes Remembered | Error</title>
+  <title>War Heroes Remembered | Home</title>
 </head>
 
-<body class="errorBackgroundImg">
+<body>
   <nav class="navbar navbar-expand-lg">
     <a class="navbar-brand" href="index.html">War Heroes Remembered</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
@@ -41,7 +38,7 @@
           <a class="nav-link" href="wwii-heroes.html">WWII Heroes</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="map.html">Map</a>
+          <a class="nav-link active" href="map.html">Map<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="contact.html">Contact</a>
@@ -49,24 +46,18 @@
       </ul>
     </div>
   </nav>
-
-
-
-  <section class="errorPage">
-
-
-    <h2>Attention!</h2>
-
-    <p>It looks like there was an error. <br>Let's get you back to somewhere more familiar.</p>
-
-    <a href="index.html" class="btn btn-error-page"> Take me there </a>
-
-    <div class="bgWhite"></div>
-
-
-
+  
+  <img class="home-hero" src="assets/images/poppy-crosses.jpg"
+    alt="Wooden crosses with poppies row on row in the grass">
+  <section>
+    <p class="map-header">Find your War Hero or Local Memorial</p>
+    <div id="map"></div>
   </section>
-
+  <p class="map-text">If you would like to find out where to find your nearest memorial or Common Wealth War
+    Graves,
+    or visit the locations of the heroes mentioned please use our map with the markers above.
+  </p>
+  
   <!-- The code here for the back to top button has been taken from Material Design for Bootstrap (MDB) v5 & v4 -->
   <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
     <i class="fas fa-arrow-up"></i>
@@ -80,13 +71,11 @@
         <span class="sr-only">Facebook</span>
       </li>
       <li class="sm-icons list-inline-item">
-        <a href="https://www.instagram.com/war_heroes_remembered/" target="_blank"><i
-            class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.instagram.com/war_heroes_remembered/" target="_blank"><i class="fab fa-instagram"></i></a>
         <span class="sr-only">Instagram</span>
       </li>
       <li class="sm-icons list-inline-item">
-        <a href="https://www.threads.net/@war_heroes_remembered" target="_blank"><i
-            class="fa-brands fa-threads"></i></a>
+        <a href="https://www.threads.net/@war_heroes_remembered" target="_blank"><i class="fab fa-threads"></i></a>
         <span class="sr-only">Threads</span>
       </li>
     </ul>
@@ -98,13 +87,13 @@
   <script src="https://kit.fontawesome.com/14fbbe1178.js" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-    </script>
+  </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
     integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-    </script>
+  </script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-    </script>
+  </script>
   <script src="assets/js/top-button.js"></script>
 </body>
 

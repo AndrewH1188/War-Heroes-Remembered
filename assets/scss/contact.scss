@@ -1,2 +1,91 @@
+@import "nav";
 @import "banner";
+@import "back-to-top";
+@import "footer";
 
+.contact-header {
+    text-align: center;
+    font-size: x-large;
+    font-weight: 600;
+    padding-bottom: 45px;
+}
+
+.contact-us-header {
+    text-align: center;
+    font-size: x-large;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.contact-text {
+    text-align: center;
+    font-size: medium;
+    font-weight: 200;
+    padding-bottom: 45px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.title {
+    font-size: medium;
+    font-weight: 250;
+    padding-bottom: 15px;
+}
+
+#fullname {
+    margin-bottom: 15px;
+    margin-right: 10px;
+    margin-left: 0;
+}
+
+#emailaddress {
+    margin-bottom: 15px;
+    margin-left: 0;
+}
+
+.form {
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.message-area {
+    min-height: 380px;
+    min-width: 100%;
+    resize: none;
+    margin-right: 25%;
+}
+
+.send-button {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #fff;
+    background-color: black;
+    border-radius: 10px;
+    padding: 5px 35px 5px 35px;
+}
+
+.button {
+    padding-top: 45px;
+    padding-left: 40%;
+    &:hover { background-color: #d20a11; }
+}
+
+
+@media (max-width: 768px) {
+    .contact-header {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .message-area {
+        min-height: 380px;
+        min-width: 100%;
+        padding: 0;
+    }
+    #map { min-width: fit-content; }
+
+    .send-button {
+        margin-left: 30px;
+        width: 140px;
+    }
+}

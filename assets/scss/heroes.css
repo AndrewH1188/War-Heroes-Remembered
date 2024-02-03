@@ -1,6 +1,104 @@
+.navbar {
+  background-color: rgb(0, 0, 0);
+  padding: 30px;
+  position: relative;
+}
+.navbar .navbar-nav {
+  display: flex;
+  flex: 25%;
+  justify-content: end;
+  align-items: end;
+}
+.navbar .nav-link {
+  display: flex;
+  flex: 25%;
+  color: #fff;
+}
+.navbar .nav-link:hover {
+  color: #d20a11;
+}
+.navbar .nav-link.active {
+  color: #ceb7a5;
+}
+.navbar .navbar-brand {
+  color: #fff;
+  font-size: x-large;
+  font-weight: 600;
+}
+.navbar .navbar-toggler {
+  color: #fff;
+  margin-left: 10px;
+  font-size: large;
+}
+.navbar .navbar-toggler:active {
+  color: #ceb7a5;
+}
+
+@media (max-width: 768px) {
+  .navbarnavbar-brand {
+    font-size: x-large;
+    text-align: center;
+  }
+}
 .home-hero {
   width: 100%;
   padding-bottom: 50px;
+}
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.footer-bg {
+  background-color: black;
+}
+
+.social-text {
+  color: #fff;
+  text-align: center;
+  font-size: large;
+  padding-top: 25px;
+  margin-bottom: 0;
+}
+
+.sm-icons {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.sm-icons a {
+  color: #fff;
+  padding-left: 15px;
+  font-size: large;
+}
+.sm-icons a:hover {
+  color: #d20a11;
+}
+
+.remember {
+  color: #fff;
+  text-align: center;
+  font-size: x-large;
+  padding-top: 2px;
+}
+
+.credit {
+  color: #fff;
+  text-align: center;
+  font-size: x-small;
+  padding-bottom: 25px;
+  padding-top: 5px;
+}
+
+p {
+  margin-bottom: 0;
 }
 
 .remembering-hero {

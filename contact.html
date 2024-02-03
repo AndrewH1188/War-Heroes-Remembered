@@ -11,14 +11,12 @@
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/scss/nav.css">
-  <link rel="stylesheet" href="assets/scss/error.css">
-  <link rel="stylesheet" href="assets/scss/back-to-top.css">
-  <link rel="stylesheet" href="assets/scss/footer.css">
+  <link rel="stylesheet" href="assets/scss/contact.css">
   <link rel="icon" href="assets/images/whr-favicon.jpg">
-  <title>War Heroes Remembered | Error</title>
+  <title>War Heroes Remembered | Contact Us</title>
 </head>
 
-<body class="errorBackgroundImg">
+<body>
   <nav class="navbar navbar-expand-lg">
     <a class="navbar-brand" href="index.html">War Heroes Remembered</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
@@ -44,28 +42,52 @@
           <a class="nav-link" href="map.html">Map</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
+          <a class="nav-link active" href="contact.html">Contact<span class="sr-only">(current)</span></a>
         </li>
       </ul>
     </div>
   </nav>
 
 
-
-  <section class="errorPage">
-
-
-    <h2>Attention!</h2>
-
-    <p>It looks like there was an error. <br>Let's get you back to somewhere more familiar.</p>
-
-    <a href="index.html" class="btn btn-error-page"> Take me there </a>
-
-    <div class="bgWhite"></div>
-
-
-
+  <img class="home-hero" src="assets/images/poppy-field.jpg" alt="Rememberance Wall with poppies">
+  <section>
+    <p class="contact-us-header">Contact Us</p>
+    <p class="contact-text">If you would like to get in touch with us please fill in the form below.
+      Thank you and we look forward to hearing from you.</p>
   </section>
+  <section class="form" id="contact">
+    <form id="contactForm">
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="name">Name</label>
+          <input type="text" class="form-control" id="name" required>
+        </div>
+        <div class="form-group col-md-6">
+          <label for="email">Email Address</label>
+          <input type="email" class="form-control" id="emailaddress"
+            pattern="[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-zA-Z]{2,4}" required>
+        </div>
+      </div>
+      <div>
+        <textarea name="enquirytype" class="form-control message-area" id="enquirytype" required></textarea>
+      </div>
+      <div class="button" id="send">
+        <button type="submit" class="send-button" value="Send">
+          Send &nbsp;<i class="far fa-paper-plane"></i></button>
+      </div>
+    </form>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
 
   <!-- The code here for the back to top button has been taken from Material Design for Bootstrap (MDB) v5 & v4 -->
   <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
@@ -80,13 +102,11 @@
         <span class="sr-only">Facebook</span>
       </li>
       <li class="sm-icons list-inline-item">
-        <a href="https://www.instagram.com/war_heroes_remembered/" target="_blank"><i
-            class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.instagram.com/war_heroes_remembered/" target="_blank"><i class="fab fa-instagram"></i></a>
         <span class="sr-only">Instagram</span>
       </li>
       <li class="sm-icons list-inline-item">
-        <a href="https://www.threads.net/@war_heroes_remembered" target="_blank"><i
-            class="fa-brands fa-threads"></i></a>
+        <a href="https://www.threads.net/@war_heroes_remembered" target="_blank"><i class="fab fa-threads"></i></a>
         <span class="sr-only">Threads</span>
       </li>
     </ul>

@@ -117,6 +117,13 @@ p {
   margin-right: 60px;
   margin-bottom: 60px;
 }
+@media (max-width: 768px) {
+  #map {
+    min-width: -webkit-fit-content;
+    min-width: -moz-fit-content;
+    min-width: fit-content;
+  }
+}
 
 .map-text {
   text-align: center;

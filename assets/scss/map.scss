@@ -3,8 +3,6 @@
 @import "back-to-top";
 @import "footer";
 
-
-
 .map-header {
     text-align: center;
     font-size: x-large;
@@ -20,15 +18,17 @@
     margin-left: 60px;
     margin-right: 60px;
     margin-bottom: 60px;
+
+    @media (max-width: 768px) {
+        min-width: fit-content;
+    }
 }
 
 .map-text {
-        text-align: center;
-        font-size: medium;
-        font-weight: 200;
-        padding-bottom: 45px;
-        padding-left: 70px;
-        padding-right: 70px;
-    }
-
-
+    text-align: center;
+    font-size: medium;
+    font-weight: 200;
+    padding-bottom: 45px;
+    padding-left: 70px;
+    padding-right: 70px;
+}

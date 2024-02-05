@@ -119,9 +119,7 @@ p {
   text-align: center;
   font-size: medium;
   font-weight: 200;
-  padding-bottom: 45px;
-  padding-left: 70px;
-  padding-right: 70px;
+  padding: 0 70px 45px 70px;
 }
 
 .title {
@@ -131,19 +129,15 @@ p {
 }
 
 #fullname {
-  margin-bottom: 15px;
-  margin-right: 10px;
-  margin-left: 0;
+  margin: 0 0 15px 10px;
 }
 
 #emailaddress {
-  margin-bottom: 15px;
-  margin-left: 0;
+  margin: 0 0 15px 0;
 }
 
 .form {
-  padding-left: 25%;
-  padding-right: 25%;
+  padding: 0 25%;
 }
 
 .message-area {
@@ -166,24 +160,18 @@ p {
   padding-top: 45px;
   padding-left: 40%;
 }
-.button:hover {
+.button :hover {
   background-color: #d20a11;
 }
 
 @media (max-width: 768px) {
   .contact-header {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0 15px;
   }
   .message-area {
     min-height: 380px;
     min-width: 100%;
     padding: 0;
-  }
-  #map {
-    min-width: -webkit-fit-content;
-    min-width: -moz-fit-content;
-    min-width: fit-content;
   }
   .send-button {
     margin-left: 30px;

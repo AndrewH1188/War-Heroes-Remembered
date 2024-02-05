@@ -13,11 +13,12 @@
 #map {
     min-height: 400px;
     min-width: 300px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-left: 60px;
-    margin-right: 60px;
-    margin-bottom: 60px;
+    padding: 20px 0;
+    margin: 0 25px 25px 25px;
+    
+    @media (min-width: 768px) {
+        margin: 0 60px 60px 60px;
+    }
 
     @media (max-width: 768px) {
         min-width: fit-content;

@@ -8,3 +8,10 @@ Although visually there maybe slight differences between the two, the main diffe
 
 There is also the notable addition of the World War Two page which is featured from the Heroes dropdown in the navigation bar. 
 There are further additions to make items such as the show more/less button function on the page as originally intended.
+
+
+
+
+
+# Information Sources
+* [S/Sgt Daniel E. McTaggart](https://100thbg.com/personnel/?personnel_id=3549)

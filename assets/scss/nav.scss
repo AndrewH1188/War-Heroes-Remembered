@@ -18,26 +18,25 @@
     }
     .navbar-brand {
         color: #fff;
-        font-size: x-large;
+        font-size: 20px;
         font-weight: 600;
     }
 
     .navbar-toggler { 
+        
         color: #fff; 
-        margin-left: 10px;
-        font-size: large; 
+        //margin-left: 10px;
+        font-size: medium; 
         &:active { color: #ceb7a5; }   
     }
 }
-
-
 
 
 // ------------ Tablet Portrait - 768px upwards 
 @media (max-width: 768px) {
     .navbar {
         &navbar-brand {
-            font-size: x-large;
+            font-size:30px;
             text-align: center;
         }
     }

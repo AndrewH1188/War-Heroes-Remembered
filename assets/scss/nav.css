@@ -22,13 +22,12 @@
 }
 .navbar .navbar-brand {
   color: #fff;
-  font-size: x-large;
+  font-size: 20px;
   font-weight: 600;
 }
 .navbar .navbar-toggler {
   color: #fff;
-  margin-left: 10px;
-  font-size: large;
+  font-size: medium;
 }
 .navbar .navbar-toggler:active {
   color: #ceb7a5;
@@ -36,7 +35,7 @@
 
 @media (max-width: 768px) {
   .navbarnavbar-brand {
-    font-size: x-large;
+    font-size: 30px;
     text-align: center;
   }
 }/*# sourceMappingURL=nav.css.map */

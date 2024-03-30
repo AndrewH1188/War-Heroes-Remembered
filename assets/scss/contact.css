@@ -22,13 +22,12 @@
 }
 .navbar .navbar-brand {
   color: #fff;
-  font-size: x-large;
+  font-size: 20px;
   font-weight: 600;
 }
 .navbar .navbar-toggler {
   color: #fff;
-  margin-left: 10px;
-  font-size: large;
+  font-size: medium;
 }
 .navbar .navbar-toggler:active {
   color: #ceb7a5;
@@ -36,7 +35,7 @@
 
 @media (max-width: 768px) {
   .navbarnavbar-brand {
-    font-size: x-large;
+    font-size: 30px;
     text-align: center;
   }
 }
@@ -147,21 +146,23 @@ p {
   margin-right: 25%;
 }
 
+.button {
+  padding-top: 45px;
+  display: flex;
+  justify-content: center;
+}
+.button :hover {
+  background-color: #d20a11;
+}
+
 .send-button {
   text-align: center;
   margin-bottom: 50px;
   color: #fff;
   background-color: black;
   border-radius: 10px;
+  border: none;
   padding: 5px 35px 5px 35px;
-}
-
-.button {
-  padding-top: 45px;
-  padding-left: 40%;
-}
-.button :hover {
-  background-color: #d20a11;
 }
 
 @media (max-width: 768px) {
@@ -174,7 +175,6 @@ p {
     padding: 0;
   }
   .send-button {
-    margin-left: 30px;
     width: 140px;
   }
 }/*# sourceMappingURL=contact.css.map */

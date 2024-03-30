@@ -374,10 +374,109 @@ This photo has been used on the Contact Us page in the middle and used on Facebo
 
 
 
+#### User Goals Testing: 
 
 
 
 
+## Implementation:
+
+
+
+
+
+
+
+## Results:
+* HTML:
+* SASS / CSS:
+
+
+* JSHint: 
+
+
+
+
+
+## Bugs
+
+
+
+
+
+
+
+
+
+## Deployment:
+In order to create this website I used GitPod to write the code, upload and store images and all relevant files that were required for this website to function, as well as show the testing, bugs, a live version of the deployed site which have been added to my README file to showcase these. With GitPod is linked to GitHub when I wrote my code I was able to use the terminal in GitPod to add, commit and push the code and any changes to their server. My project has been deployed using [GitHub Pages](https://pages.github.com/) which has allowed my site to go live for people to use and view. This is another part of my expanding portfolio that employers are able to view and see my coding skills and also my design skills. Having this site live also enables me to be able to look back at my journey over the course of studying with the Code Institute and see how far I have come on my journey from my first website [Go Tennis System](https://andrewh1188.github.io/go-tennis-ms1/) to becoming a Full Stack Web Developer. Having a live deployed site enables users to view my site without having to fork or clone this for themselves, but if users would rater clone my site for themselves I have added a section below to walk them through how to do this.
+
+The below are the following steps I took to deploy my website and make this live:
+
+1. Click on the Repositories tab in GitHub.
+2. Click on the war-heroes-remembered-ms2 link which is at the top of my repositories. This is here as it is the most recent file I have been working on. 
+3. Click the settings tab.
+4. Scroll all the way down near the bottom to [GitHub Pages](https://pages.github.com/) which now has its own dedicated tab.
+5. Click the Check it out, which will take you to GitHub Pages.
+6. Where it says Source, click the dropdown and set this to master.
+7. Click save and then wait a few minutes before clicking on the link to view your live masterpiece.
+
+You are more than welcome to run this project locally yourself, and if you would like to do this you will need to do the following:
+1. Click on war-heroes-remembered-ms2 link which is at the top of my Repository in GitHub.
+2. Click on the dropdown arrow where it says Code.
+3. Click Clone, Open GitHub Desktop or Download ZIP.
+4. Open in your preferred IDE.
+5. Run on your preferred server.
+
+
+#### EmailJS set up:
+Using EmailJS will allow you as the website designer and coder to link your contact form to send emails through to your email address and is simple to set up. If you would like to also use EmailJS on your form then please follow the simple steps below:
+
+1. Go to this [web address](https://www.emailjs.com/) and click the Sign Up Free if you don’t have an EmailJS account.
+2. If you haven't got an account with EmailJS you need to sign up. You will be directed to this [page](https://dashboard.emailjs.com/sign-up).
+3. Upon sign up you will be taken to the [Email Services](https://dashboard.emailjs.com/admin) page. On this page you will see the + Add New Service button. Click this and you will see a list of email provider services and their logos. Select the email provider/service that you want to connect your email too.
+If you’re using Gmail you can connect your Gmail account to this service and send a test email to make sure this is connected (the test box has a tick auto enabled so this will send on your behalf when you click the Create Service button). Whereas if you’re using anything else like AOL, iCloud, Outlook or Yahoo you will need to put in your email address and a password. When connecting your email you will see a Service ID, this will need to be copied as you will require this later.
+4. Under Email Services you will then see your mail service logo and name with your service code, so if you didn’t copy this when you input your email please copy this now and place this safe in your JavaScript file as you will require this in your code to set up your code talking to this service.
+5. In the list on the left-hand side select [Email Templates](https://dashboard.emailjs.com/admin/templates) to get your email template set up. When you click here you will see it has a button that says + Create New Template. Click this or the Press [Create New Template](https://dashboard.emailjs.com/admin/templates/new) to create your first template!
+5. Now you are able to customise what you want your template to say as well as give it a name. Once you have done select the save in the top right-hand corner. Once you have saved this you will see The template has been added successfully appear in the top middle of the screen.
+6. To test the template and see if this is connected to your email you will then need to select Test It which is in the top right hand corner near the Save button.
+7. You will be able to fill in the form and then press the Send Test Email button. One thing to note is that above the  Send Test Email button there is the following:
+* Javascript Code
+	* emails.send("service_23hwu9m”,”template_iwyskgh”);
+You will need to also copy and save this somewhere (like your JavaScript file as you will need this later. In the template that you have edited to suit your requirements be sure to go to the settings and give this a name. The Template ID needs to be left as it is, so please do not change this part.
+8. So you have now set up your template and tested that this works with your email, you are now able to add in the code from EmailJS into your own JavaScript file. To do this head over to the [Integration](https://dashboard.emailjs.com/admin/integration/npm) section on the left-hand panel and select the [Browser](https://dashboard.emailjs.com/admin/integration/browser) button under the Integration title and next to the NPM button. In the Browser section just copy the below script and place this in your HTML before the closing head tag.
+
+If you would like to add the JavaScript in then there is some to get you started in the [Playground](https://jsfiddle.net/api/post/library/pure/) section. This will allow you to see the JavaScript that you may need to add to your JavaScript file. I used some of the code from the Rosie’s Resume template in order to complete mine.
+
+
+#### Adding an API with Google Maps to your website:
+If you would like to add a map using Google Maps API to your website, or if you are cloning my code or website you will need to take the following steps.
+
+1. Before you start though you will need to create or sign in to a Google account and have your credit card handy (Don’t worry, if you restrict your API key Google won’t bill you, so there will be no surprise payments). If you do not have a Google account you will need to [sign up](https://accounts.google.com/signup/v2/webcreateaccount?hl=en&flowName=GlifWebSignIn&flowEntry=SignUp) to be able to start the process of using the Maps API.
+2. As mentioned above you will need to give Google your credit card details. The billing page is [here](https://developers.google.com/maps/billing/gmp-billing). 
+3. If you go to the [Getting started with Google Maps](https://developers.google.com/maps/gmp-get-started#quickstart) page and scroll down you will see the section that says Quick Start. Under here there is a 3 Step way to Set up your project, Enable APIs or SDKs and get an API key.
+4. Click the button that says [Go to the project selector page](https://console.cloud.google.com/projectselector2/home/dashboard)
+5. You will be taken to the [Dashboard](https://console.cloud.google.com/projectselector2/home/dashboard) page. Here you will need to click on the link in the top right-hand corner CREATE PROJECT. This will bring you to the [New Project](https://console.cloud.google.com/projectcreate?previousPage=%2Fprojectselector2%2Fhome%2Fdashboard) page where you can give your project a name. When you have done this then click the Create button on the bottom. You will then be taken to a page that displays all your project info on.
+6. In the left-hand menu move your mouse over the APIs and Services, this will then open out a sub menu. Select the third option down that says Credentials and you will now be taken to the [Credentials](https://console.cloud.google.com/apis/credentials) page.
+7. At the top of this page select Create Credentials and then select API Key. This will open with a pop up where your API key is shown to you.
+8. Make sure that before you close this you have done the following.
+	* Copied your API key and put this in your HTML file for safety (as you will need this later)
+	* Clicked on the Restrict Key
+9. On this page you can name your API key for your project name, as well as also copy your API key if you forgot to do this before. Also you’re going to want to restrict your API key too, which you are able to do on this page as well.
+10. If you then go to the [Google Maps Platform APIs by Platform](https://developers.google.com/maps/apis-by-platform) and click on [Maps JavaScript API](https://developers.google.com/maps/documentation/javascript/overview). Customise maps with your own content and imagery. You will be taken to the JavaScript code that you can use as well as the CSS, HTML and the Inline Loading that you will copy and paste into your HTML and add in your API key in the section that says YOUR_API_KEY.
+
+Now that you’re all done you can explore and have some fun with the maps and the different ways and means of adding in your marker(s). To add a marker(s) to your project there is the link in the left-hand side of the panel that says [Add a marker to your map](https://developers.google.com/maps/documentation/javascript/adding-a-google-map) or if you want to add lots of markers in the same area of a map and would like them to cluster you can add [Cluster markers](https://developers.google.com/maps/documentation/javascript/marker-clustering). These pages on the Markers and Cluster markers give you the JavaScript and HTML that you need to be able to complete this task. Also there are many different ways in which you can try this for yourself. You can see examples in [Fiddle](https://jsfiddle.net/api/post/library/pure/), [CodeSandBox.io](https://codesandbox.io/embed/github/googlemaps/js-samples/tree/sample-marker-clustering), [Stackblitz.com](https://stackblitz.com/github/googlemaps/js-samples/tree/sample-marker-clustering?file=README.md), [GitPod](https://amaranth-mackerel-ndfwhfsk.ws-eu16.gitpod.io/) and [Google Cloud Shell](https://ssh.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https%3A%2F%2Fgithub.com%2Fgooglemaps%2Fjs-samples&cloudshell_git_branch=sample-marker-clustering&cloudshell_tutorial=CLOUD_SHELL_INSTRUCTIONS.md&cloudshell_workspace=.) for both Markers and Marker clustering.
+
+
+
+
+
+
+
+
+
+
+## Credits:
 
 
 

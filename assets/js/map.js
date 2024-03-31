@@ -126,6 +126,125 @@ function LoadMap() {
         "lng": '2.998103415514772',
         "description": 'Rifleman Henry William Longman <br> Tyne Cot Memorial'
       },
+
+
+
+      // WW2 HEROES
+      {
+        "title": 'First Officer Dora Lang',
+        "lat": '51.52641',
+        "lng": '-0.74094',
+        "description": 'First Officer Dora Lang <br> Maidenhead (All Saints) Cemetery'
+      },
+
+
+      // {
+      //   "title": 'Nurse Edith Cavell',
+      //   "lat": 'XXXXXXXXX',
+      //   "lng": 'XXXXXXXXX',
+      //   "description": 'Nurse Edith Cavell <br> XXXXXX'
+      // },
+
+
+      {
+        "title": 'Wing Commander Guy Gibson VC',
+        "lat": '51.58826',
+        "lng": '4.32809',
+        "description": 'Wing Commander Guy Gibson VC <br> Steenbergen-en-Kruisland, Roman Catholic Cemetery'
+      },
+
+
+
+      // {
+      //   "title": 'Witold Urbanowicz',
+      //   "lat": 'XXXXXXXXX',
+      //   "lng": 'XXXXXXXXX',
+      //   "description": 'Witold Urbanowicz <br> XXXXXX'
+      // },
+
+      // {
+      //   "title": 'Bernard Jordan',
+      //   "lat": 'XXXXXXXXX',
+      //   "lng": 'XXXXXXXXX',
+      //   "description": 'Bernard Jordan <br> XXXXXX'
+      // },
+
+
+      {
+        "title": 'Captain Francis Brown Wai',
+        "lat": '21.312448',
+        "lng": '-157.846115',
+        "description": 'Captain Francis Brown Wai <br> 34th Infantry Regiment'
+      },
+
+      
+
+      {
+        "title": 'First Lieutenant John Glennon Kriegshauser',
+        "lat": '53.3681165',
+        "lng": '-1.5066148,17',
+        "description": 'First Lieutenant John Glennon Kriegshauser <br> XXXXXX'
+      },
+
+
+      {
+        "title": 'S/Sgt Daniel E. McTaggart',
+        "lat": '42.015571',
+        "lng": '-98.0847014,15',
+        "description": 'S/Sgt Daniel E. McTaggart <br> 100th Bombardment Group'
+      },
+
+
+      {
+        "title": 'XXX',
+        "lat": 'XXXXXXXXX',
+        "lng": 'XXXXXXXXX',
+        "description": 'XXX <br> XXXXXX'
+      },
+
+
+      {
+        "title": 'XXX',
+        "lat": 'XXXXXXXXX',
+        "lng": 'XXXXXXXXX',
+        "description": 'XXX <br> XXXXXX'
+      },
+
+
+      {
+        "title": 'XXX',
+        "lat": 'XXXXXXXXX',
+        "lng": 'XXXXXXXXX',
+        "description": 'XXX <br> XXXXXX'
+      },
+
+
+      {
+        "title": 'XXX',
+        "lat": 'XXXXXXXXX',
+        "lng": 'XXXXXXXXX',
+        "description": 'XXX <br> XXXXXX'
+      },
+
+
+      {
+        "title": 'XXX',
+        "lat": 'XXXXXXXXX',
+        "lng": 'XXXXXXXXX',
+        "description": 'XXX <br> XXXXXX'
+      },
+
+
+      {
+        "title": 'XXX',
+        "lat": 'XXXXXXXXX',
+        "lng": 'XXXXXXXXX',
+        "description": 'XXX <br> XXXXXX'
+      },
+      
+
+
+
     ];
     window.onload = function () {
       LoadMap();

@@ -1,24 +1,18 @@
 # War-Heroes-Remembered
 
-Based on my original [War Heroes Remembered](AndrewH1188/war-heroes-remembered-ms2) project that I produced for my second Milestone Project with Code Institute, I have decided that it is time to expand and develop this great project further, whilst keeping the respectful presence that this site has. 
+Based on my original [War Heroes Remembered](AndrewH1188/war-heroes-remembered-ms2) project that I produced for my second Milestone Project with Code Institute, I have decided that it is time to expand and develop this great project further while keeping the respectful presence that this site has.
 
+Although there may be slight differences between the two visually, the main difference is in code base. Using SCSS (that is compiled down to CSS) is a start with the nesting and also separating stylesheets so that elements are easier to work with.
 
+There is also the notable addition of the World War Two Heroes page, as well as the map having been split from the contact page and now featuring on its own page. The other noticeable differences are that the page hero images have been reduced in height, and there is also an error / 404 page. The 404 page can be accessed [here](https://andrewh1188.github.io/War-Heroes-Remembered/error.html). 
+
+There are further additions to make items such as the show more/less button function on the page as originally intended.
 
 
 ## Showcase
 ![responsive-screenshot](assets/images/testing/whr-responsiveness.jpg)
 
-
-My original Code Institute War Heroes Remembered Milestone 2 website can be found [here](https://andrewh1188.github.io/war-heroes-remembered-ms2/) and my newly developed site can be found [here](https://andrewh1188.github.io/War-Heroes-Remembered/). 
-
-Although visually there maybe slight differences between the two, the main difference is in code base. Using SCSS that is compiled down to CSS is a start with the nesting and also separating stylesheets so that elements are easier to work with.
-
-There is also the notable addition of the World War Two page which is featured from the Heroes dropdown in the navigation bar. 
-There are further additions to make items such as the show more/less button function on the page as originally intended.
-
-
-
-
+I have kept and used the code from my original Code Institute War Heroes Remembered Milestone 2 website, which can be found [here](https://andrewh1188.github.io/war-heroes-remembered-ms2/), and made a new repository for my newly developed site, which can be found [here](https://andrewh1188.github.io/War-Heroes-Remembered/).
 
 
 ## Table of Contents
@@ -97,7 +91,7 @@ There are further additions to make items such as the show more/less button func
 
 
 #### Strategy
-Having completed this original website as my second milestone project with Code Institute and identifying improvements along the way, I have revisited this special website in order to make minor updates. Since my original milestone project where I had 4 pages and two items on each, I have split items like the Map onto its own page, as well as added a page for World War Two Heroes. The original fonts and colours have been kept as these are the "brand's" signature. Original images have been kept, but have been made smaller in height so a user isn't scrolling further to get past an image. There have been additional images that have been used on the WWII Heroes page, in the way of a header image and the heroes themselves.
+Having completed this original website as my second milestone project with Code Institute and having identified improvements along the way, I decided to revisit this special website in order to make minor updates. Since my original milestone project, where I had four pages and two items on each, I have split items like the map onto its own page, as well as added a page for World War Two heroes and their locations on the map. The original fonts and colours have been kept, as these are the "brand's" signature. Original page header images have been kept, but have been made smaller in height so a user isn't scrolling further to get past an image. There have been additional images that have been used on the WWII Heroes page, in the form of a header image and the heroes themselves.
 
 
 

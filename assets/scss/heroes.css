@@ -141,6 +141,12 @@ p {
 
 .hero-info {
   text-align: center;
+  padding-bottom: 30px;
+}
+@media screen and (min-width: 768px) {
+  .hero-info {
+    padding-bottom: 0;
+  }
 }
 
 .pg-button-heroes {

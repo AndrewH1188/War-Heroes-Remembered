@@ -8,7 +8,8 @@
 
     &-article {
         text-align: center;
-        padding: 0 100px 25px 100px;
+        padding: 0 46px 25px 46px;
+        @media screen and (min-width: 768px) {padding: 0 100px 25px 100px;}
     }
 }
 

@@ -5,7 +5,6 @@ Based on my original [War Heroes Remembered](AndrewH1188/war-heroes-remembered-m
 Although there may be slight differences between the two visually, the main difference is in code base. Using SCSS (that is compiled down to CSS) is a start with the nesting and also separating stylesheets so that elements are easier to work with.
 
 There is also the notable addition of the World War Two Heroes page, as well as the map having been split from the contact page and now featuring on its own page. The other noticeable differences are that the page hero images have been reduced in height, and there is also an error / 404 page. The 404 page can be accessed [here](https://andrewh1188.github.io/War-Heroes-Remembered/error.html). 
-
 There are further additions to make items such as the show more/less button function on the page as originally intended.
 
 

@@ -40,6 +40,11 @@
     padding-bottom: 40px;
 }
 
+
+.ty-compact-list:gt(2) {
+    display: none;
+  }
+
 .hero-info {
     text-align: center;
     padding-bottom: 30px;

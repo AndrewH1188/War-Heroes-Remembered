@@ -17,9 +17,6 @@
 .errorBackgroundImg .errorPage .moreFamiliar {
   margin-bottom: 10px;
 }
-.errorBackgroundImg .errorPage .moreFamiliar br {
-  display: none;
-}
 .errorBackgroundImg .errorPage .btn {
   background-color: #000;
   color: #fff;
@@ -56,6 +53,9 @@
 @media screen and (min-width: 768px) {
   .errorBackgroundImg .errorPage {
     margin: 80px 0;
+  }
+  .errorBackgroundImg .errorPage .moreFamiliar br {
+    display: none;
   }
 }
 @media screen and (min-width: 992px) {

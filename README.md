@@ -11,7 +11,7 @@ There are further additions to make items such as the show more/less button func
 ## Showcase
 ![responsive-screenshot](assets/images/testing/whr-responsiveness.jpg)
 
-I have kept and used the code from my original Code Institute War Heroes Remembered Milestone 2 website and made a new repository for my newly developed site. Welcome to [hWar Heroes Remembered](https://andrewh1188.github.io/War-Heroes-Remembered/) version 2.
+I have kept and used the code from my original Code Institute War Heroes Remembered Milestone 2 website and made a new repository for my newly developed site. Welcome to [War Heroes Remembered](https://andrewh1188.github.io/War-Heroes-Remembered/) version 2.
 
 
 ## Table of Contents

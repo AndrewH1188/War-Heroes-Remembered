@@ -247,7 +247,7 @@ function LoadMap() {
     for (var i = 0; i < markers.length; i++) {
       var data = markers[i];
       var myLatlng = new google.maps.LatLng(data.lat, data.lng);
-      var marker = new google.maps.marker.AdvancedMarkerElement({
+      var marker = new google.maps.Marker({
         position: myLatlng,
         map: map,
         title: data.title

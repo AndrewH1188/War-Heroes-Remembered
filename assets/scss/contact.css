@@ -136,7 +136,7 @@ p {
 }
 
 .form {
-  padding: 0 25%;
+  padding: 0 5%;
 }
 
 .message-area {
@@ -165,9 +165,12 @@ p {
   padding: 5px 35px 5px 35px;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .contact-header {
     padding: 0 15px;
+  }
+  .form {
+    padding: 0 15%;
   }
   .message-area {
     min-height: 380px;
@@ -176,5 +179,10 @@ p {
   }
   .send-button {
     width: 140px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .form {
+    padding: 0 25%;
   }
 }/*# sourceMappingURL=contact.css.map */

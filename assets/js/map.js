@@ -138,8 +138,8 @@ function LoadMap() {
       },
       {
         "title": 'Violette Szabo',
-        "lat": '51.50162068033168',
-        "lng": '-0.15596363248417836',
+        "lat": '51.50162068033169',
+        "lng": '-0.15596363248417837',
         "description": 'Violette Szabo VC <br> Commemorated on the FANY Memorial - St Pauls Church'
       },
       {
@@ -178,12 +178,11 @@ function LoadMap() {
         "lng": '-1.2948819611527356',
         "description": 'Corporal Annie Bowmar <br> Commemorated at St. Michael Churchyard Underwood'
       },
-
       {
-        "title": 'XXX',
-        "lat": 'XXXXXXXXX',
-        "lng": 'XXXXXXXXX',
-        "description": 'XXX <br> XXXXXX'
+        "title": 'Lieutenant Herbert Denham Brotheridge',
+        "lat": '49.23265833158959',
+        "lng": '-0.2582927895018328',
+        "description": 'Lieutenant Herbert Denham Brotheridge <br> Ranville Churchyard'
       },
 
 

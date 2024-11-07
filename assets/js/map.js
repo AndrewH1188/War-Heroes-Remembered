@@ -136,33 +136,18 @@ function LoadMap() {
         "lng": '-0.7423668954214439',
         "description": 'First Officer Dora Lang <br> Maidenhead (All Saints) Cemetery'
       },
-      // {
-      //   "title": 'Nurse Edith Cavell',
-      //   "lat": 'XXXXXXXXX',
-      //   "lng": 'XXXXXXXXX',
-      //   "description": 'Nurse Edith Cavell <br> XXXXXX'
-      // },
+      {
+        "title": 'Violette Szabo',
+        "lat": '51.50162068033168',
+        "lng": '-0.15596363248417836',
+        "description": 'Violette Szabo VC <br> Commemorated on the FANY Memorial - St Pauls Church'
+      },
       {
         "title": 'Wing Commander Guy Gibson VC',
         "lat": '51.57034852676304',
         "lng": '4.406121760568442',
         "description": 'Wing Commander Guy Gibson VC <br> Steenbergen-en-Kruisland, Roman Catholic Cemetery'
       },
-      // {
-      //   "title": 'Witold Urbanowicz',
-      //   "lat": 'XXXXXXXXX',
-      //   "lng": 'XXXXXXXXX',
-      //   "description": 'Witold Urbanowicz <br> XXXXXX'
-      // },
-
-      // {
-      //   "title": 'Bernard Jordan',
-      //   "lat": 'XXXXXXXXX',
-      //   "lng": 'XXXXXXXXX',
-      //   "description": 'Bernard Jordan <br> XXXXXX'
-      // },
-
-
       {
         "title": 'Captain Francis Brown Wai',
         "lat": '21.313313161958163',
@@ -181,26 +166,18 @@ function LoadMap() {
         "lng": '-98.083060545335685',
         "description": 'S/Sgt Daniel E. McTaggart <br> West Cedar Valley Cemetery'
       },
-
-
-
-
-
       {
-        "title": 'XXX',
-        "lat": 'XXXXXXXXX',
-        "lng": 'XXXXXXXXX',
-        "description": 'XXX <br> XXXXXX'
+        "title": 'Noor Inayat Khan',
+        "lat": '51.50162068033168',
+        "lng": '-0.15596363248417836',
+        "description": 'Noor Inayat Khan <br> Commemorated on the FANY Memorial - St Pauls Church'
       },
-
-
       {
-        "title": 'XXX',
-        "lat": 'XXXXXXXXX',
-        "lng": 'XXXXXXXXX',
-        "description": 'XXX <br> XXXXXX'
+        "title": 'Corporal Annie Bowmar',
+        "lat": '53.05238645323897',
+        "lng": '-1.2948819611527356',
+        "description": 'Corporal Annie Bowmar <br> Commemorated at St. Michael Churchyard Underwood'
       },
-
 
       {
         "title": 'XXX',

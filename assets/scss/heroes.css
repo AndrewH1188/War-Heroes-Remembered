@@ -175,4 +175,17 @@ a {
 .btn-heroes-pages:active {
   background-color: #ceb7a5;
   border-color: transparent;
+}
+
+@media screen and (min-width: 576px) {
+  .col-sm-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .col-sm-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
 }/*# sourceMappingURL=heroes.css.map */

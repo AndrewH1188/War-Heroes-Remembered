@@ -184,13 +184,11 @@ function LoadMap() {
         "lng": '-0.2582927895018328',
         "description": 'Lieutenant Herbert Denham Brotheridge <br> Ranville Churchyard'
       },
-
-
       {
-        "title": 'XXX',
-        "lat": 'XXXXXXXXX',
-        "lng": 'XXXXXXXXX',
-        "description": 'XXX <br> XXXXXX'
+        "title": 'Private Murray Adams-Acton',
+        "lat": '49.23128841256903',
+        "lng": '-0.25837452239656317',
+        "description": 'Private Murray Adams-Acton <br> Ranville War Cemetery'
       },
 
 

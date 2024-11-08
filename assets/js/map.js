@@ -193,10 +193,10 @@ function LoadMap() {
 
 
       {
-        "title": 'XXX',
-        "lat": 'XXXXXXXXX',
-        "lng": 'XXXXXXXXX',
-        "description": 'XXX <br> XXXXXX'
+        "title": 'Company Sergeant-Major John Robert Osborn',
+        "lat": '22.258820731470042',
+        "lng": '114.23421789094061',
+        "description": 'Company Sergeant-Major John Robert Osborn <br> Commemorated on Sai Wan Bay Memorial'
       },
 
 

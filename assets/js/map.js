@@ -198,18 +198,12 @@ function LoadMap() {
         "lng": '114.23421789094061',
         "description": 'Company Sergeant-Major John Robert Osborn <br> Commemorated on Sai Wan Bay Memorial'
       },
-
-
       {
-        "title": 'XXX',
-        "lat": 'XXXXXXXXX',
-        "lng": 'XXXXXXXXX',
-        "description": 'XXX <br> XXXXXX'
+        "title": 'Sergeant Dennis Rushworth Briggs',
+        "lat": '49.27419936964308',
+        "lng": '-0.7141381520402714',
+        "description": 'Sergeant Dennis Rushworth Briggs <br> Bayeux British War Cemetery'
       },
-      
-
-
-
     ];
     window.onload = function () {
       LoadMap();
